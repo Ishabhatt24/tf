@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+  nav{
+    font-family: 'cursive', sans-serif;
+    /* background-color: aquamarine; */
+    /* opacity: 0.5;*/
+    display: flex;
+    opacity: 0.8;
+    font-weight: bolder;
+    background-color:black;
+} 
+nav ul
+{
+    width: 100%;
+    display: flex ;
+    margin: auto;
+    list-style-type: none;
+    height: 100px;
+    /* background-color: black; */
+    padding-left: 270px;
+    color: aliceblue;
+    font-family: sans-serif;
+    padding-right: 12px;
+}
+img{
+    width: 250px;
+    padding-left: 20px;
+}
+li{
+    font-size: 20px;
+    /* width: 100%; */
+    margin: auto;
+    display: flex;
+    padding: 30px;
+}
+.containerr{
+    padding-left: 240px;
+    float: right;
+    padding-top: 30px;
+}
+a{
+    font-size: 20px;
+    padding: 2px;
+    color:white;
+    /* float: right; */
+    /* background-color: aqua; */
+    font-family: sans-serif;
+    text-decoration: none  ;
+}
+
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: gainsboro;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  nav ul :hover{
+    background-color:rgb(176, 172, 172);
+    border-radius: 40px;
+    display:ruby-base;
+}
+footer {
+  display: block;
+  color: black;
+  padding-left: 590px;
+}
+.id{
+  color: antiquewhite;
+}
